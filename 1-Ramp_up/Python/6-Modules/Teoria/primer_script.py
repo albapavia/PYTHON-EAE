@@ -10,7 +10,7 @@ def my_function():
     Example function
     """
     return my_variable
-    
+
 class MyClass:
     """
     Example class.
@@ -18,12 +18,12 @@ class MyClass:
 
     def __init__(self):
         self.variable = my_variable
-        
+
     def set_variable(self, new_value):
         """
         Set self.variable to a new value
         """
         self.variable = new_value
-        
+
     def get_variable(self):
         return self.variable
